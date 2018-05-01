@@ -6,7 +6,7 @@ from selenium.webdriver.chrome.options import Options
 import datetime
 
 def check_res():
-    data=openpyxl.load_workbook('./it_data.xlsx','r')
+    data=openpyxl.load_workbook('./it_data1.xlsx','r')
     sheet = data.active
     print("\n\tDDU IT Student Result Checker")
     print("Enter the name of student : ",end=" ")
